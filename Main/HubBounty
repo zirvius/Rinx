@@ -1,0 +1,30 @@
+       getgenv().Setting = {
+          ["Team"] = "Pirates",
+          ["Inventory"] = {
+             ["Melee"] = {
+                ["TurnOn"] = true,
+                ["Z"] = {["TurnOn"] = true, ["Hold Skill"] = 0.1},
+                ["X"] = {["TurnOn"] = true, ["Hold Skill"] = 0.1},
+                ["C"] = {["TurnOn"] = true, ["Hold Skill"] = 0.1}
+              },
+              ["Blox Fruit"] = {
+                ["TurnOn"] = true,
+                ["Z"] = {["TurnOn"] = true, ["Hold Skill"] = 0.3},
+                ["X"] = {["TurnOn"] = true, ["Hold Skill"] = 0.3},
+                ["C"] = {["TurnOn"] = true, ["Hold Skill"] = 0.3},
+                ["V"] = {["TurnOn"] = true, ["Hold Skill"] = 0.3},
+                ["F"] = {["TurnOn"] = false, ["Hold Skill"] = 0.3}
+              },   
+              ["Sword"] = {
+                ["TurnOn"] = true,
+                ["Z"] = {["TurnOn"] = true, ["Hold Skill"] = 0.2},
+                ["X"] = {["TurnOn"] = true, ["Hold Skill"] = 0.2}
+              },
+              ["Gun"] = {
+                ["TurnOn"] = false,
+                ["Z"] = {["TurnOn"] = false, ["Hold Skill"] = 0.1},
+                ["X"] = {["TurnOn"] = false, ["Hold Skill"] = 0.1}
+              }
+           }
+        } 
+        loadstring(game:HttpGetAsync"https://github.com/RinXHub/RinX/raw/main/RinXAutoBounty.lua")()
